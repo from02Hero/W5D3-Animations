@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="@string/go_to_transitionsactivity1_with"
+        android:textColor="#262626"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:id="@+id/fade_in"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="#ededed"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/fade_in" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/fade_out"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="#ededed"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/fade_out" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:id="@+id/slide_down"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="#ededed"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/slide_down" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/slide_up"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="#ededed">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/slide_up" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:id="@+id/slide_from_left"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="#ededed">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/slide_from_left" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/slide_from_right"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="#ededed">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/slide_from_right" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>
